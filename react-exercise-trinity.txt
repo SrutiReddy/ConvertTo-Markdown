@@ -1,5 +1,7 @@
 Please complete the exercise using React-hooks
 
+https://react-coding-trinity.azurewebsites.net/
+
 •	I have a currency converter API
 https://api.frankfurter.app/latest?amount=10&from=USD&to=CAD
 •	Use the above API and generate a currency converter application based on the below layout. Feel free to use any IDE of your choice. 
