@@ -1,0 +1,12 @@
+Please complete the exercise using React-hooks
+
+•	I have a currency converter API
+https://api.frankfurter.app/latest?amount=10&from=USD&to=CAD
+•	Use the above API and generate a currency converter application based on the below layout. Feel free to use any IDE of your choice. 
+•	Currencies supported are USD, CAD, GBP and EUR
+• Default value in dropdown 1 should be USD and in dropdown 2 should be CAD
+• Dropdown 2 should behave both as a placeholder and an input
+•	Anytime dropdown value or input value changes, we need to call the API and update the UI only on the second input box
+•	If USD is selected in dropdown 1, USD must not be displayed in dropdown 2 and vice-versa
+•	Change in Input 1 should change the value in Input 2, but change in Input 2 should not change the value in Input 1
+• Clearing any of the input boxes should clear both the input box values
