@@ -1,0 +1,12 @@
+<pre>{{currencyOptions | json}}</pre>
+<form name="currencyconverter">
+    <input name="amount" value="" [(ngModel)]="convert" (change)="handleChangeValue()" />
+    <select name="from" [(ngModel)]="currency" (change)="handleCurrencyChange()">
+        <option *ngFor="let item of currencyOptionsFrom" [value]="item.value">{{item.label}}</option>
+    </select>
+    <input name="convertedValue" value="" [(ngModel)]="converted" />
+    <select name="to" [(ngModel)]="currencyto" (change)="handleCurrencyChange()">
+        <option *ngFor="let items of currencyOptionsTo" [value]="items.value">
+            {{items.label}}</option>
+    </select>
+</form>
